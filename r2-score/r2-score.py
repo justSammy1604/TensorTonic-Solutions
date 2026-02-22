@@ -9,7 +9,7 @@ def r2_score(y_true, y_pred) -> float:
     """
     # Write code here
     y_true = np.asarray(y_true, dtype=float)
-    y_pred = np.asarray(y_pred, dtype=float)
+    y_pred = np.asarray(y_pred, dtype=float) 
 
     if y_true.shape != y_pred.shape:
         raise ValueError('Error1')
