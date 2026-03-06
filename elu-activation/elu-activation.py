@@ -1,0 +1,14 @@
+import math
+def elu(x, alpha):
+    """
+    Apply ELU activation to each element.
+    """
+    # Write code here
+    result = []
+    for v in x:
+        if v > 0:
+            result.append(v)
+        else:
+            result.append(alpha * (math.exp(v) - 1))
+
+    return result
