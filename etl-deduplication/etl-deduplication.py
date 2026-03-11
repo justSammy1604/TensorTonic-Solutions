@@ -23,7 +23,7 @@ def deduplicate(records, key_columns, strategy):
                 continue
 
             elif strategy == "last":
-                selected[key] = record
+                selected[key] = record 
 
             elif strategy == "most_complete":
                 current_best = selected[key]
