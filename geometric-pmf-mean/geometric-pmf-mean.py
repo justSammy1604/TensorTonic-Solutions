@@ -1,6 +1,6 @@
 import numpy as np
 
-def geometric_pmf_mean(k, p):
+def geometric_pmf_mean(k, p): 
     """
     Compute Geometric PMF and Mean.
     """
