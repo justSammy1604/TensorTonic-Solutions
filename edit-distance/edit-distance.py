@@ -6,7 +6,7 @@ def edit_distance(s1, s2):
     m = len(s1)
     n = len(s2)
 
-    dp = [[0] * (n+1) for _ in range(m+1)]
+    dp = [[0] * (n+1) for _ in range(m+1)] 
 
     for i in range(m+1):
         dp[i][0] = i
