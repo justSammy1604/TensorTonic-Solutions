@@ -5,7 +5,7 @@ def selu(x, lam=1.0507009873554804934193349852946, alpha=1.673263242354377284817
     Returns a list of floats rounded to 4 decimal places.
     """
     # Write code here
-    values=[]
+    values=[] 
     for i in x:
         if i <= 0:
             values.append(lam*alpha*(np.exp(i) - 1))
