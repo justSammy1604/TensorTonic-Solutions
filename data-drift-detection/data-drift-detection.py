@@ -11,7 +11,7 @@ def detect_drift(reference_counts, production_counts, threshold):
 
     tvd = 0.5 * sum(abs(p - q) for p,q in zip(ref_probs, prod_probs))
 
-    drift_detect = tvd > threshold
+    drift_detect = tvd > threshold 
 
     return {
         'score':tvd,
