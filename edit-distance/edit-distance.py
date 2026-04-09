@@ -3,7 +3,7 @@ def edit_distance(s1, s2):
     Compute the minimum edit distance between two strings.
     """
     # Write code here
-    m = len(s1)
+    m = len(s1) 
     n = len(s2)
 
     dp = [[0] * (n+1) for _ in range(m+1)] 
