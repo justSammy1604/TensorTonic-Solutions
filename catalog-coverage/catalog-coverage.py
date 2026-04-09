@@ -11,4 +11,4 @@ def catalog_coverage(recommendations, n_items):
 
     coverage = len(unique_items) / n_items
 
-    return float(coverage)
+    return float(coverage) 
