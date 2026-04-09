@@ -12,4 +12,4 @@ def cosine_embedding_loss(x1, x2, label, margin):
     if label == 1:
         return 1 - cos_sim
     else:
-        return max(0.0, cos_sim - margin)
+        return max(0.0, cos_sim - margin) 
