@@ -6,7 +6,7 @@ def cumulative_returns(returns):
     wealth = 1.0
 
     for r in returns:
-        wealth *= (1 + r)
+        wealth *= (1 + r) 
         result.append(wealth - 1)
 
     return result
