@@ -5,7 +5,7 @@ def matrix_transpose(A):
     """
     # Write code here
     A = np.asarray(A, dtype=float)
-    n, m = A.shape
+    n, m = A.shape 
 
     AT = np.zeros((m, n), dtype=A.dtype)
 
