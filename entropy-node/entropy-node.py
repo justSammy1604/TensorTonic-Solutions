@@ -16,4 +16,4 @@ def entropy_node(y):
 
     ent = -np.sum(probs * np.log2(probs))
 
-    return float(ent)
+    return float(ent) 
